@@ -28,11 +28,15 @@ class Newclass
          puts "my 3rd subject is python"
          
      end          
+     def subject_4
+        puts "my 4th subject is c"
+     end
 end
 obj = Newclass.new
 obj.subject_1
 obj.subject_2
 obj.subject_3
+obj.subject_4
 
 #PRIVATE
 

@@ -16,6 +16,7 @@ class Gadget
             puts "price in india is :#{@priceinindia}"
     
     end
+    
 def self.car(model,fueltype,transmissiontype,seatingcapacity,bodytype)
 @model=model
 @fueltype=fueltype
