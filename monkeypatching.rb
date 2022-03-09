@@ -6,7 +6,7 @@ puts "Before blocking reverse: " +
 	
 # Apply patching
 class String
-def reverse
+def reverseimplicit_version
 	"Reversing blocked!!"
 end
 end
